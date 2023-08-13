@@ -36,3 +36,4 @@ Try out your fine-tuned model:
 
 openai api completions.create -m davinci:ft-personal-2023-08-06-05-25-19 -p <YOUR_PROMPT>
 ```
+
