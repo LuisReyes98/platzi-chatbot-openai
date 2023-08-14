@@ -26,7 +26,7 @@ def print_new_messages(token):
         text = message.get('text', '')
         print(f'Usuario: {username}({id})')
         print(f'Mensaje: {text}')
-        print('---')
+        print('-' * 20)
         offset = update['update_id'] + 1
     time.sleep(1)
 
