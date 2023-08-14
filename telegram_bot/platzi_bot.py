@@ -66,6 +66,8 @@ def main():
         GPT = get_openai_response(user_message)
         # Llama a la función send_message() para enviar la respuesta al usuario.
         send_messages(chat_id, GPT)
+
+    else:
       # Pausa la ejecución del programa durante 1 segundo.
       time.sleep(1)
 
